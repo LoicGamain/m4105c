@@ -1,4 +1,6 @@
-@media screen and (max-width: 480px){
-    /* Ici du code s'appliquant aux écrans de moins de 480 pixels de large */
-    
+@media screen and (max-height: 640px) and (max-width: 360px) {
+  .bloc {
+    display:block;
+    clear:both;
+  }
 }
