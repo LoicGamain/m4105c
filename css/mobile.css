@@ -1,7 +1,6 @@
-body{margin:0;}
 @media screen and (max-device-width: 360px){
 	#p1 {
-		background-color: red;
+		background-color: blue;
 	}
 	#p2 {
 		background-color: white;
@@ -9,4 +8,8 @@ body{margin:0;}
 	#p3 {
 		background-color: red;
 	}
+	#img {
+	width: 100%;
+	}
+
 }
