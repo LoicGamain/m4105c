@@ -7,3 +7,19 @@
 #p3 {
 	background-color: red;
 }
+
+@media screen and (max-height: 640px) and (max-width: 360px) {
+	.img {
+    max-width: 360px;
+	}
+	#p1 {
+		background-color: blue;
+	}
+	#p2 {
+		background-color: white;
+	}
+	#p3 {
+		background-color: red;
+	}
+
+}
