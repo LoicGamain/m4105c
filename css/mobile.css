@@ -1,7 +1,5 @@
-@media screen and (max-width: 360px) {
-	.img {
-    max-width: 360px;
-	}
+body{margin:0;}
+@media screen and (max-device-width: 360px){
 	#p1 {
 		background-color: red;
 	}
