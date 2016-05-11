@@ -12,8 +12,11 @@
 	width: 100%;
 	}
 	#logo-iut {
-		display: block;
+		display: block;x
 		width: 300px;
 		position: center;
 	}
+	html { font-size: 62.5%; } /* 1rem vaut 10px */
+	body { font-size: 1.6rem; } /* 1.6 rem vaut 16px */
+	h1   { font-size: 8vw; } /* 2.5 rem vaudra 25px */
 }
