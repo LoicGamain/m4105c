@@ -10,7 +10,7 @@
 
 @media screen and (max-height: 640px) and (max-width: 360px) {
 	.img {
-    max-width: 360px;
+    max-width: 100%;
 	}
 	#p1 {
 		background-color: blue;
