@@ -12,7 +12,8 @@
 	width: 100%;
 	}
 	#logo-iut {
-	width: 300px;
-	position: center;
+		display: block;
+		width: 300px;
+		position: center;
 	}
 }
