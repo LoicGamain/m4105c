@@ -7,6 +7,9 @@
 #p3 {
 	background-color: red;
 }
-html { font-size: 62.5%; } /* 1rem vaut 10px */
-body { font-size: 1.6rem; } /* 1.6 rem vaut 16px */
-h1   { font-size: 2.5rem; } /* 2.5 rem vaudra 25px */
+#tableau {
+	border : 1px solid black;
+}
+#tableau td {
+	border : 1px solid black;
+}
