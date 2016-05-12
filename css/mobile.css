@@ -1,13 +1,18 @@
 @media screen and (max-device-width: 360px){
 	#p1 {
-		background-color: blue;
+		background-image: url(../img/bg.jpg);
+		color: white;
+		background-size: contain;
 	}
 	#p2 {
-		background-color: white;
+		color: white;
+		background-image: url(../img/bg.jpg);
+		background-size: contain;
 	}
 	#p3 {
-		background-color: red;
-	}
+		color: white;
+		background-image: url(../img/bg.jpg);
+		background-size: contain;	}
 	#img {
 	width: 100%;
 	}
