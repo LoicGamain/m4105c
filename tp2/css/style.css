@@ -1,0 +1,40 @@
+/*** LOGO ***/
+#logo {
+	display: block;
+	float: left;
+	width: 15%;
+	height: 15%;
+}
+
+/****** HEADER ******/
+
+#header  {
+	white-space: nowrap; /* Interdiction de passer à la ligne */
+	height: 10em; /* hauteur du parent */
+ 	line-height: 10em; /* hauteur de ligne (identique) */
+	float: right;
+}
+
+/*** BANNIERE ***/
+#banniere {
+	display: block;
+	width: 100%;
+	height: auto;
+	float: left;
+}
+#banniere_mercedes {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+/**** PARTIE1 *****/
+
+#partie1{
+	display: block;
+	width: 100%;
+	height: auto;
+	float: left;
+}
