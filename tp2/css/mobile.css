@@ -134,8 +134,10 @@
 	.colonne {
 		display: block;
 		float: left;
-		width: 100%;
+		width: 95%;
 		height: auto;
+		margin-right: 2%;
+		margin-left: 2%;
 	}
 	.image {
 		width: 95%;
