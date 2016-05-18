@@ -4,11 +4,15 @@
 		margin-right: 10%;
 		margin-left: 10%;
 	}
+
 	#logo {
 		display: block;
 		vertical-align: center;
 		text-align: center;
 		width: 100%;
+	}
+	#menu_burger {
+		display: none;
 	}
 	#logo_mercedes {
 		width: 60%;
@@ -76,4 +80,105 @@
 	}
 	#message {
 		height: 5em;
+	}
+	#envoyer {
+	width: 20%;
+	height: auto;
+	float: right;
+	display: inline-block;
+	}
+
+@media screen and (max-width: 360px){
+	html {
+		width: 100%;
+		margin-right: 0%;
+		margin-left: 0%;
+	}
+
+	#logo {
+		display: block;
+		vertical-align: center;
+		text-align: center;
+		width: 100%;
+	}
+	#menu_burger {
+		display: block;
+		width: 25%;
+		float: left;
+	}
+	#logo_mercedes {
+		width: 50%;
+		vertical-align: center;
+		text-align: center;
+	}
+	#telephone {
+		display: block;
+		width: 15%;
+		float: right;
+	}
+	#header  {
+		display: none;
+	}
+	#banniere {
+		display: block;
+		width: 100%;
+		margin-top: 2%;
+	}
+	#banniere_mercedes {
+		width: 100%;
+	}
+	#liste_modele {
+		width: 100%;
+		display: inline-block;
+	}
+	.colonne {
+		display: block;
+		float: left;
+		width: 50%;
+		height: auto;
+	}
+	.image {
+		width: 95%;
+	}
+	.description {
+		width: 95%;
+		height: auto;
+	}
+	#bas_page{
+	display: block;
+	width: 100%;
+	height: auto;
+	float: left;
+	}
+	#google {
+		display: block;
+		width: 49%;
+		float: left;
+	}
+	#contact{
+	display: block;
+	width: 50%;
+	float: right;
+	}
+	#prenom, #age, #nom, #ville_naissance {
+	width: 100%;
+	float: left;
+	display: inline-block;
+	vertical-align: top;
+	border-left: 5px solid white;
+	}
+	#email, #photo, #message  {
+		width: 100%;
+		float: left;
+		display: block;
+		vertical-align: top;
+	}
+	#message {
+		height: 5em;
+	}
+	#envoyer {
+	width: 20%;
+	height: auto;
+	float: right;
+	display: inline-block;
 	}

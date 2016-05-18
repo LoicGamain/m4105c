@@ -17,6 +17,9 @@ p, h1, h2, footer {
 	height: 15%;
 	margin-top: 1em;
 }
+#menu_burger {
+	display: none;
+}
 
 /****** HEADER ******/
 
