@@ -136,7 +136,9 @@ p, h1, h2, footer {
 	float: right;
 	display: inline-block;
 }
-
+#telephone {
+	display: none;
+}
 
 form input  {
     margin-top: 1em;
