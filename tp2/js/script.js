@@ -8,7 +8,7 @@ $('document').ready(function(){
 			$('#header').css("float","center");
 			$('#header').css("margin-left","0px");
 			$('#header').css("margin-bottom","0px");
-			$('#recherche').css("width","15px");
+			$('#recherche').css("width","40px");
 		}
 	
 	});
