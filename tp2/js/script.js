@@ -1,12 +1,12 @@
 $('document').ready(function(){
 	$('#menu_burger').click(function() {
-		if($('#menu').is(':visible')) {
-			$('#menu').css("display","none");
+		if($('#header').is(':visible')) {
+			$('#header').css("display","none");
 		}else {
-			$('#menu').css("display","block");
-			$('#menu').css("float","center");
-			$('#menu').css("margin-left","0px");
-			$('#menu').css("margin-bottom","0px");
+			$('#header').css("display","block");
+			$('#header').css("float","center");
+			$('#header').css("margin-left","0px");
+			$('#header').css("margin-bottom","0px");
 		}
 	}
 });
