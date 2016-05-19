@@ -1,3 +1,4 @@
+
 $('document').ready(function(){
 	$('#menu_burger').click(function() {
 		if($('#header').is(':visible')) {
@@ -8,5 +9,6 @@ $('document').ready(function(){
 			$('#header').css("margin-left","0px");
 			$('#header').css("margin-bottom","0px");
 		}
-	}
+	
+	});
 });
