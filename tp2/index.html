@@ -77,11 +77,11 @@
 			<form id="formulaire">
 				<input type="text" name="prenom" placeholder="Prénom" id="prenom" onchange="sessionStorage.prenom=this.value"/>
 				<input type="text" name="nom" placeholder="nom" id="nom" onchange="sessionStorage.nom=this.value"/>
-				<input type="date" name="date_naissance" placeholder="JJ/MM/AAAA" id="age" onchange="sessionStorage.age=this.value"/>
+				<input type="date" name="date_naissance"  id="age" onchange="sessionStorage.age=this.value"/>
 				<input type="text" name="ville_naissance" placeholder="Ville de naissance" id="ville_naissance" onchange="sessionStorage.ville_naissance=this.value" />
 				<input type="email" name="email" placeholder="Example@example.f" id="email" onchange="sessionStorage.email=this.value">
-				<input type="file" name="photo" placeholder="Photo" id="photo" onchange="sessionStorage.photo=this.value"/>
-				<textarea type="text" name="message" placeholder="Message ..." id="message" onchange="sessionStorage.message=this.value">Message ... </textarea>
+				<input type="file" name="photo"  id="photo" onchange="sessionStorage.photo=this.value"/>
+				<textarea name="message" placeholder="Message ..." id="message" onchange="sessionStorage.message=this.value">Message ... </textarea>
 				<input type="submit" name="envoyer" value="Envoyer" id="envoyer" />
 				
 			</form>
